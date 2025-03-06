@@ -8,8 +8,8 @@ $stylesheet = file_get_contents('style.css');
 $mpdf->WriteHTML($stylesheet, \Mpdf\HTMLParserMode::HEADER_CSS);
 
 $html = '
-    <h1>Atenção</h1>
-    <p>Ola mundo</p>
+    <h1>Hello world</h1>
+    <p>atividade 03 de progweb</p>
 ';
 
 $mpdf->WriteHTML($html);
